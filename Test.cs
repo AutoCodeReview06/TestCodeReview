@@ -15,6 +15,11 @@ namespace FactorialCalculator
             return number == 0 ? 1 : number * Calculate(number + 1);
         }
 
+         public static string GetBranchName()
+        {
+          return "Dev";
+        }
+
         // Main method for testing
         static void Main(string[] args)
         {
