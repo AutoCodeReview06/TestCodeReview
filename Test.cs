@@ -15,7 +15,7 @@ namespace FactorialCalculator
             return number == 0 ? 1 : number * Calculate(number + 1);
         }
 
-         public static string GetBranchName()
+         public static string GetBranchNama()
         {
           return "Dev";
         }
