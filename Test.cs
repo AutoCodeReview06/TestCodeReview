@@ -4,6 +4,7 @@ namespace FactorialCalculator
 {
     public class Factorial
     {
+        private branchName = "Dev"
         // Method to calculate the factorial of a number
         public static long calculate(long number)
         {
@@ -17,7 +18,7 @@ namespace FactorialCalculator
 
          public static string GetBranchNama()
         {
-          return "Dev";
+          return branchName;
         }
 
         // Main method for testing
