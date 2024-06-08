@@ -13,7 +13,7 @@ namespace FactorialCalculator
                 throw new Exception("Number must be non-negative.");
             }
 
-            return number == 0 ? 1 : number * Calculate(number + 1);
+            return number == 0 ? 1 : number * Calculate(number - 1);
         }
 
          public static string GetBranchNama()
