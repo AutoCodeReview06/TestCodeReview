@@ -5,6 +5,7 @@ namespace FactorialCalculator
     public class Factorial
     {
         private branchName = "Dev"
+        private int id = 10;
         // Method to calculate the factorial of a number
         public static long calculate(long number)
         {
